@@ -10,8 +10,9 @@ spring:
         packlabel-out-0:
           destination: order-dispatched
   rabbitmq:
-    host: 35.192.18.170
+    host: localhost
     port: 5672
     username: test
     password: test
     connection-timeout: 15s
+    virtual-host: /
